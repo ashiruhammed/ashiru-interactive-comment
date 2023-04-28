@@ -2,9 +2,10 @@
   "name": "chatapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "default": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "bulid index.html --dist-dir ./dist"
   },
   "author": "",
   "license": "ISC",
