@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" defer src="./js/controller.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="chatBox"></div>
+    <div id="user_comment_reply_juliusomo" class="user_comment_box">
+      <div>
+        <img src="/images/avatars/image-juliusomo.webp" alt="" />
+        <textarea
+          class="user_comment_text"
+          placeholder="Add a comment..."
+          cols="30"
+          rows="5"></textarea>
+      </div>
+      <button class="user_comment_button">SEND</button>
+    </div>
+    <div class="modal-view hide">
+      <div class="delete_cont">
+        <div>
+          <h3>Delete comment</h3>
+          <p>
+            Are you sure want to delete this comment? This will remove the
+            comment and can't be undone
+          </p>
+        </div>
+        <div class="btn_cont">
+          <button class="cancel_btn">NO, CANCEL</button
+          ><button class="delete_btn">YES, DELETE</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
